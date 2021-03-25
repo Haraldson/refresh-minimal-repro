@@ -50,7 +50,6 @@ module.exports = {
         path: `${__dirname}/dist`,
         filename: '[name].[fullhash].bundle.js',
         chunkFilename: '[name].[fullhash].chunk.js',
-        chunkFormat: 'commonjs',
         publicPath: '/'
     }
 }
